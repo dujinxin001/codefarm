@@ -7,9 +7,9 @@
 	<packaging>pom</packaging>
 	<version>4.2.4</version>
 	<modules>
-		<module>springside-core</module>
+		<module>spring-core</module>
 		<module>springside-extension</module>
-		<module>springside-util</module>
+		<module>spring-util</module>
 		<module>spring-test</module>
 		<module>spring-quartz</module>
 		<module>spring-jsoup</module>
