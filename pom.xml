@@ -224,7 +224,7 @@
 		<repository>
 			<id>codefarm</id>
 			<name>Local Nexus Repository</name>
-			<url>http://dev.codefarm.tech/nexus/content/repositories/releases/</url>
+			<url>http://ci.coderun99.com:88/nexus/content/repositories/releases/</url>
 		</repository>
 	</distributionManagement>
 </project>
