@@ -1,4 +1,4 @@
-package com.sxj.spring.modules.shiro.x509.web;
+package com.codefarm.spring.modules.shiro.x509.web;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -24,7 +24,7 @@ import org.apache.shiro.web.filter.authc.AuthenticatingFilter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.sxj.spring.modules.shiro.x509.authc.x509.X509AuthenticationToken;
+import com.codefarm.spring.modules.shiro.x509.authc.x509.X509AuthenticationToken;
 
 /** 
  * AuthenticatingFilter for forwarded X509 authentication.

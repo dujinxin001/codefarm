@@ -1,4 +1,4 @@
-package com.sxj.spring.modules.shiro.x509.web;
+package com.codefarm.spring.modules.shiro.x509.web;
 
 import java.security.cert.X509Certificate;
 
@@ -11,7 +11,7 @@ import org.apache.shiro.web.filter.authc.AuthenticatingFilter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.sxj.spring.modules.shiro.x509.authc.x509.X509AuthenticationToken;
+import com.codefarm.spring.modules.shiro.x509.authc.x509.X509AuthenticationToken;
 
 public class X509AuthenticationFilter extends AuthenticatingFilter
 {

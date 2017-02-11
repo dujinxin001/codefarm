@@ -1,4 +1,4 @@
-package com.sxj.spring.modules.shiro.x509.authc.x509;
+package com.codefarm.spring.modules.shiro.x509.authc.x509;
 
 import javax.security.auth.x500.X500Principal;
 
