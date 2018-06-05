@@ -61,6 +61,7 @@ public class NioFileUtil {
     
     
 	public static void writePcm(FileChannel fc,byte[] b) throws Exception {
+		System.out.println("开始写文件");
 		//先将上次文件删除
 //		new File(file).delete();
 //		RandomAccessFile raf1 = new RandomAccessFile(file,"rw");
@@ -70,8 +71,8 @@ public class NioFileUtil {
                 b.length).load();  
 		raf.clear();
 		raf.put(b);
-		raf.flip();
 		fc.write(raf);
+		raf.flip();
 		//在windows7 32bit 下, allocateDirect反而比allocate慢
 		//ByteBuffer raf = ByteBuffer.allocateDirect(mapsize);
 //		byte[] b1 = new byte[]{'a','b','c','d','e','f','g','h'};
@@ -88,7 +89,6 @@ public class NioFileUtil {
 //				raf.compact();
 //			}
 //		}
-		raf.flip();
 		//因为close方法可能将缓冲中最后剩余的flush到文件, 所以要纳入计时
 //		fc.close();
 	}
